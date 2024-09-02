@@ -9,6 +9,9 @@ export TERM=st-256color
 ## PAC Control
 
 ### git
+
+.gitignore example
+
 ```txt
 # ignore compiled bits of the program
 *.crn
