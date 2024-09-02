@@ -55,3 +55,16 @@ I had an issue where the toolbar would not display correctly and in the logs
 the errors were prefixed with "fixme". I found a dll called "fixme." I installed it, winetricks installed
 the required dlls and it ceased being an issue.
 
+## Misc
+### Epic
+
+* Architure: armv7l
+* target triplet: arm-poky-linux-gnueabi
+
+```sh
+# Get architure
+uname -a
+
+# get target triplet
+gcc -dumpmachine
+```
