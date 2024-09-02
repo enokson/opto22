@@ -32,3 +32,9 @@ export TERM=st-256color
 # ignore archives
 # path/to/archives/
 ```
+
+### Subroutines
+
+There are developement issues related to subroutines. They cannot be reproduced, but they DO NOT affect code running in production.
+To avoid the issue, refrain from stepping into a block just before a subroutine or from setting a breakpoint in a subroutine
+while in debug mode.
