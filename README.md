@@ -49,7 +49,7 @@ My setup:
   * adding dll comctl32
   * adding dll dxvk
   * There may be some other dlls required
-* Used winecfg to change the path of Z:\ from "/" to "/home/<USER>/"
+* Used winecfg to change the path of Z:\ from "/" to "/home/\<USER\>/"
 
 I had an issue where the toolbar would not display correctly and in the logs
 the errors were prefixed with "fixme". I found a dll called "fixme." I installed it, winetricks installed
